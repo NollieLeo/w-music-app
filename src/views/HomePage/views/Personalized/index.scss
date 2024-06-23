@@ -1,0 +1,33 @@
+.personalized {
+  .item {
+    width: fit-content;
+    position: relative;
+  }
+  .image {
+    height: 150px;
+    border-radius: 8px;
+  }
+  .name {
+    width: 100%;
+    margin-top: 10px;
+    max-width: 150px;
+    font-size: 14px;
+    color: #2f2f2f;
+    text-align: center;
+  }
+  .count {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ffffff;
+    font-size: 12px;
+    gap: 2px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .btn {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

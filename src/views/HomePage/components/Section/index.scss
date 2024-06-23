@@ -1,0 +1,11 @@
+.section {
+  margin: 10px 8px;
+  .section-content {
+    margin-top: 15px;
+    :deep(.uni-scroll-view-content) {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+  }
+}

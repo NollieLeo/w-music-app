@@ -1,0 +1,39 @@
+.ablum-newest {
+  .item {
+    width: fit-content;
+    position: relative;
+  }
+  .image {
+    height: 150px;
+    border-radius: 8px;
+  }
+  .artistName,
+  .name {
+    width: 100%;
+    max-width: 150px;
+    color: $uni-text-color;
+    text-align: center;
+  }
+  .name {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .artist-name {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 18px;
+    color: $uni-text-color;
+    &.light {
+      font-size: 14px;
+      color: $uni-text-color-grey;
+    }
+  }
+  .title-divider {
+    margin: 0 6px;
+  }
+  .btn {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

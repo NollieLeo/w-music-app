@@ -1,0 +1,41 @@
+page {
+  font-size: 28rpx;
+  line-height: 1.5;
+}
+
+page,
+view,
+input,
+text,
+form,
+navigator,
+rich-text,
+picker,
+scroll-view,
+cover-view,
+open-data {
+  box-sizing: border-box;
+}
+
+uni-page-body {
+  width: 100%;
+  height: 100%;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

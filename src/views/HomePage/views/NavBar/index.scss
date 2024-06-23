@@ -1,0 +1,25 @@
+.navbar {
+  justify-content: space-between;
+  margin: 20px 8px 10px;
+  border-bottom: 1px solid $uni-border-color;
+  padding-bottom: 15px;
+
+  .navbar-item {
+    height: fit-content;
+    width: 60px;
+  }
+  .navbar-item-icon {
+    border-radius: 50%;
+    background-color: $uni-color-primary;
+    width: 40px;
+    height: 40px;
+    font-weight: 800;
+    color: #fff;
+    justify-content: center;
+  }
+  .navbar-item-text {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #2f2f2f;
+  }
+}

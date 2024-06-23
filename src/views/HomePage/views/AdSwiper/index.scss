@@ -1,0 +1,16 @@
+.ad-swiper {
+  --wot-swiper-radius: 0;
+  --wot-swiper-item-padding: 0 24rpx;
+  --wot-swiper-nav-dot-color: #e7e7e7;
+  --wot-swiper-nav-dot-active-color: #4d80f0;
+  padding-bottom: 24rpx;
+  :deep(.custom-indicator-class) {
+    bottom: -16px;
+  }
+  :deep(.custom-image) {
+    border-radius: 12rpx;
+  }
+  :deep(.custom-image-prev) {
+    height: 168px !important;
+  }
+}

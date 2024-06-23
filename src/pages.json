@@ -1,9 +1,17 @@
 {
   "pages": [
     {
-      "path": "pages/index/index",
+      "path": "views/HomePage/index",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "views/VideoPage/index",
+      "style": {
+        "navigationBarTitleText": "视频"
       }
     }
   ],
@@ -12,5 +20,29 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue"
+    }
+  },
+  "tabBar": {
+    "color": "red",
+    "selectedColor": "blue",
+    "list": [
+      {
+        "pagePath": "views/HomePage/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "views/VideoPage/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "视频"
+      }
+    ]
   }
 }
